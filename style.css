@@ -1,0 +1,110 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* PAGE BACKGROUND */
+body {
+  height: 100vh;
+  background-color: #f6c1cc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* CARD */
+.card {
+  width: 360px;
+  height: 260px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  position: relative;
+  overflow: hidden;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+/* MAIN CONTENT */
+.icon {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#yes {
+  background: #ff4d6d;
+  color: white;
+}
+
+#no {
+  background: #e0e0e0;
+}
+
+.note {
+  font-size: 12px;
+  color: #777;
+}
+
+/* RESULT SCREEN */
+.result {
+  position: absolute;
+  inset: 0;
+  background-image: url("hearts.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.result-img {
+  width: 140px;
+  margin-bottom: 15px;
+}
+
+.connect-text {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.insta-link {
+  background: #ff4d6d;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* HIDE */
+.hidden {
+  display: none;
+}
